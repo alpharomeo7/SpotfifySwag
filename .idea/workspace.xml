@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/.github/PULL_REQUEST_TEMPLATE.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/Procfile.windows" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/gettingstarted/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/gettingstarted/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/gettingstarted/static/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/gettingstarted/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/gettingstarted/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/static/lang-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/templates/db.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/hello/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started-master/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Green.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/01_EPS/Spotify_Icon_RGB_White.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/02_PNG/Spotify_Icon_RGB_White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/03_PDF/Spotify_Icon_RGB_Black.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/03_PDF/Spotify_Icon_RGB_Green.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/01_RGB/03_PDF/Spotify_Icon_RGB_White.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/01_EPS/Spotify_Icon_CMYK_Black.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/01_EPS/Spotify_Icon_CMYK_Green.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/01_EPS/Spotify_Icon_CMYK_White.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/02_PNG/Spotify_Icon_CMYK_Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/02_PNG/Spotify_Icon_CMYK_White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/03_PDF/Spotify_Icon_CMYK_Black.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/03_PDF/Spotify_Icon_CMYK_Green.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/02_CMYK/03_PDF/Spotify_Icon_CMYK_White.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/01_EPS/Spotify_Icon_Black_Coated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/01_EPS/Spotify_Icon_Black_Uncoated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/01_EPS/Spotify_Icon_Green_Coated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/01_EPS/Spotify_Icon_Green_Uncoated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/02_PDF/Spotify_Icon_Black_Coated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/02_PDF/Spotify_Icon_Black_Uncoated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/02_PDF/Spotify_Icon_Green_Coated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/icons/03_PMS/02_PDF/Spotify_Icon_Green_Uncoated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/01_EPS/Spotify_Logo_RGB_Black.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/01_EPS/Spotify_Logo_RGB_Green.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/01_EPS/Spotify_Logo_RGB_White.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/02_PNG/Spotify_Logo_RGB_Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/02_PNG/Spotify_Logo_RGB_White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/03_PDF/Spotify_Logo_RGB_Black.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/03_PDF/Spotify_Logo_RGB_Green.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/01_RGB/03_PDF/Spotify_Logo_RGB_White.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/01_EPS/Spotify_Logo_CMYK_Black.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/01_EPS/Spotify_Logo_CMYK_Green.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/01_EPS/Spotify_Logo_CMYK_White.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/02_PNG/Spotify_Logo_CMYK_Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/02_PNG/Spotify_Logo_CMYK_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/02_PNG/Spotify_Logo_CMYK_White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/03_PDF/Spotify_Logo_CMYK_Black.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/03_PDF/Spotify_Logo_CMYK_Green.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/02_CMYK/03_PDF/Spotify_Logo_CMYK_White.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/01_EPS/Spotify_Logo_Black_Coated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/01_EPS/Spotify_Logo_Black_Uncoated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/01_EPS/Spotify_Logo_Green_Coated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/01_EPS/Spotify_Logo_Green_Uncoated.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/02_PDF/Spotify_Logo_Black_Coated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/02_PDF/Spotify_Logo_Black_Uncoated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/02_PDF/Spotify_Logo_Green_Coated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-icons-logos/logos/03_PMS/02_PDF/Spotify_Logo_Green_Uncoated.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ax5xF7YAiOHata4FaVkuqQnqWh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -153,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587664648421</updated>
       <workItem from="1587664649604" duration="125000" />
-      <workItem from="1587677962656" duration="14913000" />
+      <workItem from="1587677962656" duration="15148000" />
     </task>
     <servers />
   </component>
