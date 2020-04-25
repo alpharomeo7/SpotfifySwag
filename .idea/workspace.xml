@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="" />
+    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/results.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1587664648421</updated>
       <workItem from="1587664649604" duration="125000" />
-      <workItem from="1587677962656" duration="15148000" />
+      <workItem from="1587677962656" duration="15250000" />
+      <workItem from="1587825395823" duration="261000" />
+      <workItem from="1587825747150" duration="909000" />
     </task>
     <servers />
   </component>
@@ -90,13 +96,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Spotify_Swag$Spotify_Swag.coverage" NAME="Spotify Swag Coverage Results" MODIFIED="1587781503572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spotify_Swag$Spotify_Swag.coverage" NAME="Spotify Swag Coverage Results" MODIFIED="1587826951080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

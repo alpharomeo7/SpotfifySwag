@@ -11,10 +11,9 @@ app = Flask(__name__)
 def index():
     client_id = '11337103815c4efba7f885a174f7710e'
     redirect_uri = request.base_url + 'results/'
-    print(redirect_uri)
     scope = 'user-top-read'
     login_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&state=bravo_charlie&response_type=code&redirect_uri=' + redirect_uri + '&scope=' + scope
-    return render_template('index.html', login_url=login_url)
+    return render_template('index.html',login_url=login_url)
 
 
 
@@ -25,12 +24,19 @@ def results():
     headers = get_headers(code)
     response = requests.get('https://api.spotify.com/v1/me', headers=headers)
     user = json.loads(response.text)
-    term = 'long'
-    base_url = 'https://api.spotify.com/v1/me/top/tracks?time_range={}_term&limit=50'.format(term)
-    response = requests.get(base_url, headers=headers)
-    long_tracks = json.loads(response.text)['items']
-    long_swag, long_image = get_bravo_charlie(long_tracks, headers)
-    return render_template('results.html', user=user, long_image=long_image,long_swag=long_swag)
+    user['images'] += [{'url': "../static/assets/img/Spotify_Icon_CMYK_Green.png"}]
+    terms = ['long','medium','short']
+    bravo_charlie = {}
+    swag = {}
+
+    for term in terms:
+        base_url = 'https://api.spotify.com/v1/me/top/tracks?time_range={}_term&limit=50'.format(term)
+        response = requests.get(base_url, headers=headers)
+        tracks = json.loads(response.text)['items']
+        swag[term], bravo_charlie[term] = get_bravo_charlie(tracks, headers)
+    print(swag)
+    print(bravo_charlie)
+    return render_template('results.html', user=user, swag=swag, bravo_charlie= bravo_charlie,terms=terms)
 
 def get_headers(code):
     redirect_uri = request.base_url
@@ -46,7 +52,6 @@ def get_headers(code):
     }
 
     response = requests.post('https://accounts.spotify.com/api/token', headers=headers, data=data)
-    print(response.text)
     bearer_token = 'Bearer ' + json.loads(response.text)['access_token']
 
     headers = {

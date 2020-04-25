@@ -58,15 +58,18 @@
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
 
+            {% for term in terms %}
+
              <div class="container d-flex align-items-center flex-column" >
+
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">{{ term }} Term</h2>
 
                   <br>
 
-                 <img class="masthead-avatar mb-5"    src="{{ long_image }}" alt="">
+                 <img class="masthead-avatar mb-5"    src="{{ bravo_charlie[term] }}" alt="">
                   <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="{{ long_swag }}">Bill Clinton Swag</a>
+                    <a class="btn btn-xl btn-outline-light" href="{{swag[term] }}">Bill Clinton Swag</a>
                 </div>
 
                 <!-- Icon Divider-->
@@ -75,6 +78,7 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+            {% endfor %}
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
