@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="" />
+    <list default="true" id="dbf59d93-b8b9-4a1d-bb09-04bd50daaa4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,9 +31,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/assets/img" />
       <recent name="$PROJECT_DIR$/static/assets/img/portfolio" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
@@ -75,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587664648421</updated>
       <workItem from="1587664649604" duration="125000" />
-      <workItem from="1587677962656" duration="14476000" />
+      <workItem from="1587677962656" duration="14711000" />
     </task>
     <servers />
   </component>
