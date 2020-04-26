@@ -20,7 +20,7 @@ def before_request():
 @app.route('/')
 def index():
     client_id = 'Your client ID'
-    redirect_uri = request.base_url + 'results/'
+    redirect_uri = request.base_url + 'results/' #insert client id here
     scope = 'user-top-read'
     login_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&state=bravo_charlie&response_type=code&redirect_uri=' + redirect_uri + '&scope=' + scope
     return render_template('index.html',login_url=login_url)
