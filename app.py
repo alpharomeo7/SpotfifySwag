@@ -19,7 +19,7 @@ def before_request():
 
 @app.route('/')
 def index():
-    client_id = '11337103815c4efba7f885a174f7710e'
+    client_id = 'Your client ID'
     redirect_uri = request.base_url + 'results/'
     scope = 'user-top-read'
     login_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&state=bravo_charlie&response_type=code&redirect_uri=' + redirect_uri + '&scope=' + scope
@@ -50,7 +50,7 @@ def results():
 
 def get_headers(code):
     redirect_uri = request.base_url
-    encoded_client_credentials = 'MTEzMzcxMDM4MTVjNGVmYmE3Zjg4NWExNzRmNzcxMGU6NjRhYmJhODk5NzBlNDAyYmFhMTE3YjFmNmQxMWMyNTc='
+    encoded_client_credentials = 'Your encoded creditians' #Insert base64 client_id:client_secret
     headers = {
         'Authorization': 'Basic ' + encoded_client_credentials,
     }
