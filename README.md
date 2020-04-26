@@ -11,6 +11,7 @@ enocde it in base 64 (https://www.base64encode.org)in the format client_id:clien
 Paste your id and encoded string in the index() and get_headers() in app.py 
 
 >> pip install requirements.txt
+
 >> flask run apppy 
 
 This app is just for fun and not a POLITICAL STATEMENT. I haven't written a lot of comments but feel free to reach out to me on ajayrawat1127@gmail.com if you have questions. 
