@@ -1,4 +1,4 @@
-Spotify Swag by Ajay R. Rawat (spotify-swag.herokuapp.com)
+Spotify Swag by Ajay R. Rawat (https://spotify-swag.herokuapp.com)
 
 This app creates the billclintonswag.com based on a user's spotfy listening history. 
 It creates 3 different Swags based on difernet periods of history: Several Years, ~ 6m, ~4 weeks
