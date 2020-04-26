@@ -1,10 +1,20 @@
-from flask import Flask, request
+from flask import Flask, request,redirect
 from flask import render_template
 import requests
 import json
 
 
 app = Flask(__name__)
+
+@app.before_request
+def before_request():
+    if request.url.startswith('http://'):
+        url = request.url.replace('http://', 'https://', 1)
+        code = 301
+        return redirect(url, code=code)
+    pass
+
+
 
 
 @app.route('/')
@@ -34,9 +44,9 @@ def results():
         response = requests.get(base_url, headers=headers)
         tracks = json.loads(response.text)['items']
         swag[term], bravo_charlie[term] = get_bravo_charlie(tracks, headers)
-    print(swag)
-    print(bravo_charlie)
-    return render_template('results.html', user=user, swag=swag, bravo_charlie= bravo_charlie,terms=terms)
+
+    timeperiod = {'long': 'Full History','short':'~4 weeks', 'medium':'~ 6 months'}
+    return render_template('results.html', user=user, swag=swag, bravo_charlie= bravo_charlie,terms=terms,timeperiod=timeperiod)
 
 def get_headers(code):
     redirect_uri = request.base_url
@@ -70,12 +80,16 @@ def get_bravo_charlie(tracks,headers):
             albums_image_urls.append(album['images'][1]['url'])
         if len(album_ids) > 4:
             break
+
+    if len(albums_image_urls) == 0:
+        return("#","../static/assets/img/Blank Clinton.png")
+
     albums_image_urls = albums_image_urls + [white_url]*(4-len(albums_image_urls))
-    bravo_charlie_url = 'https://www.billclintonswag.com/api/image?album_url={}&album_url={}&album_url={}&album_url={}'.format(
-        albums_image_urls[0], albums_image_urls[1], albums_image_urls[2], albums_image_urls[3])
+    bravo_charlie_url = 'https://www.billclintonswag.com/api/image?album_url={}&album_url={}&album_url={}&album_url={}'.format(*albums_image_urls)
 
     swag_url = requests.get(bravo_charlie_url, stream=True).url
     image_id = swag_url.rsplit('/', 1)[-1]
+    swag_url = 'https://bill-clinton-swag-fgj90r9m3.now.sh/shop?swag={}'.format(image_id)
     image_url = 'https://s3.amazonaws.com/Clinton_Swag/{}/swag.png'.format(image_id)
     return(swag_url,image_url)
 
